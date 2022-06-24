@@ -1,4 +1,4 @@
-tesseract-ocr-dotnet
+# tesseract-ocr-dotnet-linux
 
 Example how to run `tesseract` using .NET 6 and the library [`TesseractOCR`](https://github.com/Sicos1977/TesseractOCR) in a Docker container.
 
