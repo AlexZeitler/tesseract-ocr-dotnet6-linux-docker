@@ -6,5 +6,5 @@ Example how to run `tesseract` using .NET 6 and the library [`TesseractOCR`](htt
 cd TeasseractOCROnLInux
 ./download-tessdata.sh # download english tessdata files
 docker build . -t tesseractdotnet # build the container from Dockerfile
-docker run -v $PWD/tessdata:/app/tessdata -v $PWD/in:/app/in tesseractdotnet # run container from image with volume mappings
+docker run -v ${PWD}/tessdata:/app/tessdata -v ${PWD}/in:/app/in tesseractdotnet # run container from image with volume mappings
 ```
